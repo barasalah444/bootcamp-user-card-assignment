@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    padding: 20px;
+}
+
+.col-main {
+    width: 100%;
+}
+
+.card {
+    background-color: white; 
+    border: 2px solid #b3b3b3;
+    border-radius: 2px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #1ea3b8;
+    height: 95px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 0px 30px 25px 30px;
+    position: relative;
+}
+
+.avatar-box {
+    margin-top: -55px; 
+    margin-bottom: 15px;
+    width: 100px; 
+    height: 100px;
+}
+
+.avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid white; 
+    background-color: #111; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5-4-8-4z"/></svg>');
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.name {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 15px;
+    color: #333; 
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.job-title, .bio {
+    font-size: 14px;
+    color: #000000; 
+    line-height: 1.4;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.bio {
+    margin-bottom: 15px;
+}
+
+.edit-link {
+    color: #0066cc; 
+    text-decoration: underline;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
